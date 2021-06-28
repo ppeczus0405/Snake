@@ -1,0 +1,6 @@
+    objectState.push_back(RenderedTexture(HUP, SBEGIN_X * DEFAULT_TEXTURE_SIZE, (SBEGIN_Y - 3) * DEFAULT_TEXTURE_SIZE));
+    objectState.push_back(RenderedTexture(STRAIGHTY, SBEGIN_X * DEFAULT_TEXTURE_SIZE, (SBEGIN_Y - 2) * DEFAULT_TEXTURE_SIZE));
+    objectState.push_back(RenderedTexture(STRAIGHTY, SBEGIN_X * DEFAULT_TEXTURE_SIZE, (SBEGIN_Y - 1) * DEFAULT_TEXTURE_SIZE));
+    objectState.push_back(RenderedTexture(TUP, SBEGIN_X * DEFAULT_TEXTURE_SIZE, SBEGIN_Y * DEFAULT_TEXTURE_SIZE));
+
+    currentDir = UP;
